@@ -1,0 +1,983 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root version="1.1">
+  <repository name="Https:">
+    <description>Https: CMSIS packs repository</description>
+    <properties>
+      <property name="type">cmsis.repo</property>
+      <property name="repo.url">https://www.keil.com/pack/index.pidx</property>
+      <property name="generator">GNU ARM Eclipse Plug-ins</property>
+      <property name="date">20200928072515</property>
+    </properties>
+    <packages>
+      <package name="NuMicro_M051_BSP">
+        <description>Nuvoton ARM Cortex-M NuMicro Family M051 BSP Support</description>
+        <versions>
+          <version name="1.0.0">
+            <description>First Release version of M051 BSP Pack.</description>
+            <properties>
+              <property name="type">cmsis.pack</property>
+              <property name="vendor.name">Nuvoton</property>
+              <property name="pack.name">NuMicro_M051_BSP</property>
+              <property name="version.name">1.0.0</property>
+              <property name="archive.url">http://www.nuvoton.com/hq/enu/Documents/KEILSoftwarePack/Nuvoton.NuMicro_M051_BSP.1.0.0.pack</property>
+              <property name="archive.name">Nuvoton.NuMicro_M051_BSP.1.0.0.pack</property>
+              <property name="archive.size">174448</property>
+              <property name="dest.folder">Nuvoton/NuMicro_M051_BSP/1.0.0</property>
+              <property name="pdsc.name">Nuvoton.NuMicro_M051_BSP.pdsc</property>
+              <property name="date">2018-09-07</property>
+            </properties>
+            <outline>
+              <keyword name="Nuvoton" />
+              <keyword name="BSP Support" />
+              <keyword name="Board Sample Package Nuvoton" />
+              <keyword name="M051" />
+              <board name="NuTiny-SDK-M051">
+                <description>Nuvoton NuTiny SDK M051 Board Support and Examples</description>
+                <property name="vendor.name">Nuvoton</property>
+              </board>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton M051 Series</description>
+              </component>
+              <component name="Device / StdDriver / ACMP">
+                <description>ACMP driver for Nuvoton M051 Series</description>
+              </component>
+              <component name="Device / StdDriver / ADC">
+                <description>ADC driver for Nuvoton M051 Series</description>
+              </component>
+              <component name="Device / StdDriver / CLK">
+                <description>CLK driver for Nuvoton M051 Series</description>
+              </component>
+              <component name="Device / StdDriver / EBI">
+                <description>EBI driver for Nuvoton M051 Series</description>
+              </component>
+              <component name="Device / StdDriver / FMC">
+                <description>FMC driver for Nuvoton M051 Series</description>
+              </component>
+              <component name="Device / StdDriver / GPIO">
+                <description>GPIO driver for Nuvoton M051 Series</description>
+              </component>
+              <component name="Device / StdDriver / HDIV">
+                <description>HDIV driver for Nuvoton M051 Series</description>
+              </component>
+              <component name="Device / StdDriver / I2C">
+                <description>I2C driver for Nuvoton M051 Series</description>
+              </component>
+              <component name="Device / StdDriver / PWM">
+                <description>PWM driver for Nuvoton M051 Series</description>
+              </component>
+              <component name="Device / StdDriver / SPI">
+                <description>SPI driver for Nuvoton M051 Series</description>
+              </component>
+              <component name="Device / StdDriver / SYS">
+                <description>SYS driver for Nuvoton M051 Series</description>
+              </component>
+              <component name="Device / StdDriver / Timer">
+                <description>Timer driver for Nuvoton M051 Series</description>
+              </component>
+              <component name="Device / StdDriver / UART">
+                <description>UART driver for Nuvoton M051 Series</description>
+              </component>
+              <component name="Device / StdDriver / WDT">
+                <description>WDT driver for Nuvoton M051 Series</description>
+              </component>
+              <component name="Device / StdDriver / WWDT">
+                <description>WWDT driver for Nuvoton M051 Series</description>
+              </component>
+              <example name="Template (NuTiny-SDK-M051)">
+                <description>M051 Template sample code</description>
+                <property name="example.name">Template</property>
+              </example>
+              <example name="GPIO_INT (NuTiny-SDK-M051)">
+                <description>M051 GPIO_INT sample code</description>
+                <property name="example.name">GPIO_INT</property>
+              </example>
+            </outline>
+            <external>
+              <board name="NuTiny-SDK-M051">
+                <property name="vendor.name">Nuvoton</property>
+              </board>
+            </external>
+          </version>
+        </versions>
+      </package>
+      <package name="NuMicro_M2351_BSP">
+        <description>Nuvoton ARM Cortex-M NuMicro Family M2351 BSP Support</description>
+        <versions>
+          <version name="1.0.1">
+            <description>Update header and source file of M2351 BSP Pack.</description>
+            <properties>
+              <property name="type">cmsis.pack</property>
+              <property name="vendor.name">Nuvoton</property>
+              <property name="pack.name">NuMicro_M2351_BSP</property>
+              <property name="version.name">1.0.1</property>
+              <property name="archive.url">http://www.nuvoton.com/hq/enu/Documents/KEILSoftwarePack/Nuvoton.NuMicro_M2351_BSP.1.0.1.pack</property>
+              <property name="archive.name">Nuvoton.NuMicro_M2351_BSP.1.0.1.pack</property>
+              <property name="archive.size">778544</property>
+              <property name="dest.folder">Nuvoton/NuMicro_M2351_BSP/1.0.1</property>
+              <property name="pdsc.name">Nuvoton.NuMicro_M2351_BSP.pdsc</property>
+              <property name="date">2020-02-06</property>
+            </properties>
+            <outline>
+              <keyword name="Nuvoton" />
+              <keyword name="BSP Support" />
+              <keyword name="Board Sample Package Nuvoton" />
+              <keyword name="M2351" />
+              <board name="NuTiny-SDK-M2351">
+                <description>Nuvoton NuTiny SDK M2351 Board Support and Examples</description>
+                <property name="vendor.name">Nuvoton</property>
+              </board>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton M2351 Series</description>
+              </component>
+              <component name="Device / StdDriver / ACMP">
+                <description>ACMP driver for Nuvoton M2351 Series</description>
+              </component>
+              <component name="Device / StdDriver / BPWM">
+                <description>BPWM driver for Nuvoton M2351 Series</description>
+              </component>
+              <component name="Device / StdDriver / CAN">
+                <description>CAN driver for Nuvoton M2351 Series</description>
+              </component>
+              <component name="Device / StdDriver / CLK">
+                <description>CLK driver for Nuvoton M2351 Series</description>
+              </component>
+              <component name="Device / StdDriver / CRC">
+                <description>CRC driver for Nuvoton M2351 Series</description>
+              </component>
+              <component name="Device / StdDriver / CRYPTO">
+                <description>CRYPTO driver for Nuvoton M2351 Series</description>
+              </component>
+              <component name="Device / StdDriver / DAC">
+                <description>DAC driver for Nuvoton M2351 Series</description>
+              </component>
+              <component name="Device / StdDriver / ADC">
+                <description>ADC driver for Nuvoton M2351 Series</description>
+              </component>
+              <component name="Device / StdDriver / EBI">
+                <description>EBI driver for Nuvoton M2351 Series</description>
+              </component>
+              <component name="Device / StdDriver / ECAP">
+                <description>ECAP driver for Nuvoton M2351 Series</description>
+              </component>
+              <component name="Device / StdDriver / EPWM">
+                <description>EPWM driver for Nuvoton M2351 Series</description>
+              </component>
+              <component name="Device / StdDriver / FMC">
+                <description>FMC driver for Nuvoton M2351 Series</description>
+              </component>
+              <component name="Device / StdDriver / GPIO">
+                <description>GPIO driver for Nuvoton M2351 Series</description>
+              </component>
+              <component name="Device / StdDriver / HDIV">
+                <description>HDIV driver for Nuvoton M2351 Series</description>
+              </component>
+              <component name="Device / StdDriver / I2C">
+                <description>I2C driver for Nuvoton M2351 Series</description>
+              </component>
+              <component name="Device / StdDriver / I2S">
+                <description>I2S driver for Nuvoton M2351 Series</description>
+              </component>
+              <component name="Device / StdDriver / MKROM">
+                <description>MKROM driver for Nuvoton M2351 Series</description>
+              </component>
+              <component name="Device / StdDriver / OTG">
+                <description>OTG driver for Nuvoton M2351 Series</description>
+              </component>
+              <component name="Device / StdDriver / PDMA">
+                <description>PDMA driver for Nuvoton M2351 Series</description>
+              </component>
+              <component name="Device / StdDriver / QEI">
+                <description>QEI driver for Nuvoton M2351 Series</description>
+              </component>
+              <component name="Device / StdDriver / QSPI">
+                <description>QSPI driver for Nuvoton M2351 Series</description>
+              </component>
+              <component name="Device / StdDriver / RTC">
+                <description>RTC driver for Nuvoton M2351 Series</description>
+              </component>
+              <component name="Device / StdDriver / SC">
+                <description>SC driver for Nuvoton M2351 Series</description>
+              </component>
+              <component name="Device / StdDriver / SCU">
+                <description>SCU driver for Nuvoton M2351 Series</description>
+              </component>
+              <component name="Device / StdDriver / SCUART">
+                <description>SCUART driver for Nuvoton M2351 Series</description>
+              </component>
+              <component name="Device / StdDriver / SDH">
+                <description>SDH driver for Nuvoton M2351 Series</description>
+              </component>
+              <component name="Device / StdDriver / SPI">
+                <description>SPI driver for Nuvoton M2351 Series</description>
+              </component>
+              <component name="Device / StdDriver / SYS">
+                <description>SYS driver for Nuvoton M2351 Series</description>
+              </component>
+              <component name="Device / StdDriver / TIMER">
+                <description>TIMER driver for Nuvoton M2351 Series</description>
+              </component>
+              <component name="Device / StdDriver / TIMER_PWM">
+                <description>TIMER_PWM driver for Nuvoton M2351 Series</description>
+              </component>
+              <component name="Device / StdDriver / UART">
+                <description>UART driver for Nuvoton M2351 Series</description>
+              </component>
+              <component name="Device / StdDriver / USBD">
+                <description>USBD driver for Nuvoton M2351 Series</description>
+              </component>
+              <component name="Device / StdDriver / USCI_I2C">
+                <description>USCI_I2C driver for Nuvoton M2351 Series</description>
+              </component>
+              <component name="Device / StdDriver / USCI_SPI">
+                <description>USCI_SPI driver for Nuvoton M2351 Series</description>
+              </component>
+              <component name="Device / StdDriver / USCI_UART">
+                <description>USCI_UART driver for Nuvoton M2351 Series</description>
+              </component>
+              <component name="Device / StdDriver / WDT">
+                <description>WDT driver for Nuvoton M2351 Series</description>
+              </component>
+              <component name="Device / StdDriver / WWDT">
+                <description>WWDT driver for Nuvoton M2351 Series</description>
+              </component>
+              <example name="TrustZone (NuTiny-SDK-M2351)">
+                <description>M2351 TrustZone sample code</description>
+                <property name="example.name">TrustZone</property>
+              </example>
+              <example name="GPIO_INT (NuTiny-SDK-M2351)">
+                <description>M2351 GPIO_INT sample code</description>
+                <property name="example.name">GPIO_INT</property>
+              </example>
+            </outline>
+            <external>
+              <board name="NuTiny-SDK-M2351">
+                <property name="vendor.name">Nuvoton</property>
+              </board>
+            </external>
+          </version>
+          <version name="1.0.0">
+            <description>First Release version of M2351 BSP Pack.</description>
+            <properties>
+              <property name="type">cmsis.pack</property>
+              <property name="vendor.name">Nuvoton</property>
+              <property name="pack.name">NuMicro_M2351_BSP</property>
+              <property name="version.name">1.0.0</property>
+              <property name="archive.url">http://www.nuvoton.com/hq/enu/Documents/KEILSoftwarePack/Nuvoton.NuMicro_M2351_BSP.1.0.0.pack</property>
+              <property name="archive.name">Nuvoton.NuMicro_M2351_BSP.1.0.0.pack</property>
+              <property name="archive.size">740908</property>
+              <property name="dest.folder">Nuvoton/NuMicro_M2351_BSP/1.0.0</property>
+              <property name="pdsc.name">Nuvoton.NuMicro_M2351_BSP.pdsc</property>
+              <property name="date">2018-09-07</property>
+            </properties>
+          </version>
+        </versions>
+      </package>
+      <package name="NuMicro_DFP">
+        <description>Nuvoton ARM Cortex-M NuMicro Family Device Support</description>
+        <versions>
+          <version name="1.3.10">
+            <description>1. Add M253 device, update system startup file
+2. Update some svd file and add M2354, M471 and NM1240 svd file</description>
+            <properties>
+              <property name="type">cmsis.pack</property>
+              <property name="vendor.name">Nuvoton</property>
+              <property name="pack.name">NuMicro_DFP</property>
+              <property name="version.name">1.3.10</property>
+              <property name="archive.url">http://www.nuvoton.com/hq/enu/Documents/KEILSoftwarePack/Nuvoton.NuMicro_DFP.1.3.10.pack</property>
+              <property name="archive.name">Nuvoton.NuMicro_DFP.1.3.10.pack</property>
+              <property name="archive.size">21656025</property>
+              <property name="dest.folder">Nuvoton/NuMicro_DFP/1.3.10</property>
+              <property name="pdsc.name">Nuvoton.NuMicro_DFP.pdsc</property>
+              <property name="date">2020-09-25</property>
+            </properties>
+            <outline>
+              <keyword name="Nuvoton" />
+              <keyword name="Device Support" />
+              <keyword name="Device Family Package Nuvoton" />
+              <keyword name="NuMicro" />
+              <devicefamily name="NuMicro M0 Family">
+                <property name="vendor.name">Nuvoton</property>
+                <property name="vendor.id">18</property>
+              </devicefamily>
+              <devicefamily name="NuMicro M23 Family">
+                <property name="vendor.name">Nuvoton</property>
+                <property name="vendor.id">18</property>
+              </devicefamily>
+              <devicefamily name="NuMicro M4 Family">
+                <property name="vendor.name">Nuvoton</property>
+                <property name="vendor.id">18</property>
+              </devicefamily>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton M030G Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton M0A21 Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton M071M Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton M071R_S Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton M071Q_V Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton M031 Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton M051 Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton M058S Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton M251 Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton M253 Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton M451 Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton M471M_R1_S Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton M471 Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton M479 Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton M480 Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton M0518 Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton M0519 Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton M0564 Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton M2351 Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton M2354 Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton M261 Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton MR63 Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton M4521 Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton Mini51 Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton Mini55 Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton Mini57 Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton Mini58 Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton Nano100AN Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton Nano100BN Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton Nano103 Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton Nano112 Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton NDA102 Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton NDA102SD Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton TF5100 Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton NM1120 Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton NM1100_1200 Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton NM1230 Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton NM1240 Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton NM1320 Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton NM1330 Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton NM1500 Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton NM1810 Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton NM1820 Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton NUC029AE Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton NUC029AN Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton NUC029DE Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton NUC029EE Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton NUC029GE Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton NUC100 Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton NUC121 Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton NUC122 Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton NUC123 Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton NUC126 Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton NUC131 Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton NUC1311 Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton NUC200 Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton NUC230_240 Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton NUC472 Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton NUC505 Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton NUC1261 Series</description>
+              </component>
+              <component name="Device / Startup">
+                <description>System Startup for Nuvoton NUC2201 Series</description>
+              </component>
+            </outline>
+          </version>
+          <version name="1.3.9">
+            <description>Add M0A21, M030G, M071, M471, NM1244, NM1830, M251, M2354 device</description>
+            <properties>
+              <property name="type">cmsis.pack</property>
+              <property name="vendor.name">Nuvoton</property>
+              <property name="pack.name">NuMicro_DFP</property>
+              <property name="version.name">1.3.9</property>
+              <property name="archive.url">http://www.nuvoton.com/hq/enu/Documents/KEILSoftwarePack/Nuvoton.NuMicro_DFP.1.3.9.pack</property>
+              <property name="archive.name">Nuvoton.NuMicro_DFP.1.3.9.pack</property>
+              <property name="archive.size">21254889</property>
+              <property name="dest.folder">Nuvoton/NuMicro_DFP/1.3.9</property>
+              <property name="pdsc.name">Nuvoton.NuMicro_DFP.pdsc</property>
+              <property name="date">2020-07-14</property>
+            </properties>
+          </version>
+          <version name="1.3.8">
+            <description>1. Add M030 device</description>
+            <properties>
+              <property name="type">cmsis.pack</property>
+              <property name="vendor.name">Nuvoton</property>
+              <property name="pack.name">NuMicro_DFP</property>
+              <property name="version.name">1.3.8</property>
+              <property name="archive.url">http://www.nuvoton.com/hq/enu/Documents/KEILSoftwarePack/Nuvoton.NuMicro_DFP.1.3.8.pack</property>
+              <property name="archive.name">Nuvoton.NuMicro_DFP.1.3.8.pack</property>
+              <property name="archive.size">18766382</property>
+              <property name="dest.folder">Nuvoton/NuMicro_DFP/1.3.8</property>
+              <property name="pdsc.name">Nuvoton.NuMicro_DFP.pdsc</property>
+              <property name="date">2020-05-19</property>
+            </properties>
+          </version>
+          <version name="1.3.7">
+            <description>1. Add M2354 device
+2. Update M2351 device driver file
+3. Update NM1530 svd files</description>
+            <properties>
+              <property name="type">cmsis.pack</property>
+              <property name="vendor.name">Nuvoton</property>
+              <property name="pack.name">NuMicro_DFP</property>
+              <property name="version.name">1.3.7</property>
+              <property name="archive.url">http://www.nuvoton.com/hq/enu/Documents/KEILSoftwarePack/Nuvoton.NuMicro_DFP.1.3.7.pack</property>
+              <property name="archive.name">Nuvoton.NuMicro_DFP.1.3.7.pack</property>
+              <property name="archive.size">18766351</property>
+              <property name="dest.folder">Nuvoton/NuMicro_DFP/1.3.7</property>
+              <property name="pdsc.name">Nuvoton.NuMicro_DFP.pdsc</property>
+              <property name="date">2020-02-06</property>
+            </properties>
+          </version>
+          <version name="1.3.6">
+            <description>Add M480 128K series, NUC029ZAN, NUC126NE4AE, NUC126SE4AE, NUC126SG4AE, M0564SE4AE, M0564SG4AE, M2351CIAAE, M479 series,
+M030, M058MDE, NM1820S, NM1232D, NM1220EBK0, NM1232Y, NUC131LC2AEU, NUC131SC2AEU, NUC131LD2AEU, NUC131SD2AEU</description>
+            <properties>
+              <property name="type">cmsis.pack</property>
+              <property name="vendor.name">Nuvoton</property>
+              <property name="pack.name">NuMicro_DFP</property>
+              <property name="version.name">1.3.6</property>
+              <property name="archive.url">http://www.nuvoton.com/hq/enu/Documents/KEILSoftwarePack/Nuvoton.NuMicro_DFP.1.3.6.pack</property>
+              <property name="archive.name">Nuvoton.NuMicro_DFP.1.3.6.pack</property>
+              <property name="archive.size">18766435</property>
+              <property name="dest.folder">Nuvoton/NuMicro_DFP/1.3.6</property>
+              <property name="pdsc.name">Nuvoton.NuMicro_DFP.pdsc</property>
+              <property name="date">2020-01-20</property>
+            </properties>
+          </version>
+          <version name="1.3.5">
+            <description>Add MR63, M032, NUC1311, TF5103, NM18107Y, NM18202Y devices, update M451 svd file</description>
+            <properties>
+              <property name="type">cmsis.pack</property>
+              <property name="vendor.name">Nuvoton</property>
+              <property name="pack.name">NuMicro_DFP</property>
+              <property name="version.name">1.3.5</property>
+              <property name="archive.url">http://www.nuvoton.com/hq/enu/Documents/KEILSoftwarePack/Nuvoton.NuMicro_DFP.1.3.5.pack</property>
+              <property name="archive.name">Nuvoton.NuMicro_DFP.1.3.5.pack</property>
+              <property name="archive.size">16321296</property>
+              <property name="dest.folder">Nuvoton/NuMicro_DFP/1.3.5</property>
+              <property name="pdsc.name">Nuvoton.NuMicro_DFP.pdsc</property>
+              <property name="date">2019-09-19</property>
+            </properties>
+          </version>
+          <version name="1.3.4">
+            <description>Add M261 series, M480, M031 device, update NM1000 series device</description>
+            <properties>
+              <property name="type">cmsis.pack</property>
+              <property name="vendor.name">Nuvoton</property>
+              <property name="pack.name">NuMicro_DFP</property>
+              <property name="version.name">1.3.4</property>
+              <property name="archive.url">http://www.nuvoton.com/hq/enu/Documents/KEILSoftwarePack/Nuvoton.NuMicro_DFP.1.3.4.pack</property>
+              <property name="archive.name">Nuvoton.NuMicro_DFP.1.3.4.pack</property>
+              <property name="archive.size">16409754</property>
+              <property name="dest.folder">Nuvoton/NuMicro_DFP/1.3.4</property>
+              <property name="pdsc.name">Nuvoton.NuMicro_DFP.pdsc</property>
+              <property name="date">2019-04-29</property>
+            </properties>
+          </version>
+          <version name="1.3.3">
+            <description>Update M2351 Flash algorithm, M251/M252 series device and add M251 svd files</description>
+            <properties>
+              <property name="type">cmsis.pack</property>
+              <property name="vendor.name">Nuvoton</property>
+              <property name="pack.name">NuMicro_DFP</property>
+              <property name="version.name">1.3.3</property>
+              <property name="archive.url">http://www.nuvoton.com/hq/enu/Documents/KEILSoftwarePack/Nuvoton.NuMicro_DFP.1.3.3.pack</property>
+              <property name="archive.name">Nuvoton.NuMicro_DFP.1.3.3.pack</property>
+              <property name="archive.size">14161458</property>
+              <property name="dest.folder">Nuvoton/NuMicro_DFP/1.3.3</property>
+              <property name="pdsc.name">Nuvoton.NuMicro_DFP.pdsc</property>
+              <property name="date">2019-02-18</property>
+            </properties>
+          </version>
+          <version name="1.3.2">
+            <description>Add system and startup files</description>
+            <properties>
+              <property name="type">cmsis.pack</property>
+              <property name="vendor.name">Nuvoton</property>
+              <property name="pack.name">NuMicro_DFP</property>
+              <property name="version.name">1.3.2</property>
+              <property name="archive.url">http://www.nuvoton.com/hq/enu/Documents/KEILSoftwarePack/Nuvoton.NuMicro_DFP.1.3.2.pack</property>
+              <property name="archive.name">Nuvoton.NuMicro_DFP.1.3.2.pack</property>
+              <property name="archive.size">14187810</property>
+              <property name="dest.folder">Nuvoton/NuMicro_DFP/1.3.2</property>
+              <property name="pdsc.name">Nuvoton.NuMicro_DFP.pdsc</property>
+              <property name="date">2018-09-10</property>
+            </properties>
+          </version>
+          <version name="1.3.1">
+            <description>1. Add M480 series part no.
+2. Remove device driver file
+3. Remove ISD and NuVoice Family</description>
+            <properties>
+              <property name="type">cmsis.pack</property>
+              <property name="vendor.name">Nuvoton</property>
+              <property name="pack.name">NuMicro_DFP</property>
+              <property name="version.name">1.3.1</property>
+              <property name="archive.url">http://www.nuvoton.com/hq/enu/Documents/KEILSoftwarePack/Nuvoton.NuMicro_DFP.1.3.1.pack</property>
+              <property name="archive.name">Nuvoton.NuMicro_DFP.1.3.1.pack</property>
+              <property name="archive.size">6588763</property>
+              <property name="dest.folder">Nuvoton/NuMicro_DFP/1.3.1</property>
+              <property name="pdsc.name">Nuvoton.NuMicro_DFP.pdsc</property>
+              <property name="date">2018-09-06</property>
+            </properties>
+          </version>
+          <version name="1.3.0">
+            <description>1. Add M23 and M4 family
+2. Add M031, NUC029DE/EE/GE, NUC1261, M4521, NM1230, NDA102, M251/M252 series device</description>
+            <properties>
+              <property name="type">cmsis.pack</property>
+              <property name="vendor.name">Nuvoton</property>
+              <property name="pack.name">NuMicro_DFP</property>
+              <property name="version.name">1.3.0</property>
+              <property name="archive.url">http://www.nuvoton.com/hq/enu/Documents/KEILSoftwarePack/Nuvoton.NuMicro_DFP.1.3.0.pack</property>
+              <property name="archive.name">Nuvoton.NuMicro_DFP.1.3.0.pack</property>
+              <property name="archive.size">13193957</property>
+              <property name="dest.folder">Nuvoton/NuMicro_DFP/1.3.0</property>
+              <property name="pdsc.name">Nuvoton.NuMicro_DFP.pdsc</property>
+              <property name="date">2018-08-20</property>
+            </properties>
+          </version>
+          <version name="1.2.2">
+            <description>M2351 secure and non-secure region defalt value</description>
+            <properties>
+              <property name="type">cmsis.pack</property>
+              <property name="vendor.name">Nuvoton</property>
+              <property name="pack.name">NuMicro_DFP</property>
+              <property name="version.name">1.2.2</property>
+              <property name="archive.url">http://www.nuvoton.com/hq/enu/Documents/KEILSoftwarePack/Nuvoton.NuMicro_DFP.1.2.2.pack</property>
+              <property name="archive.name">Nuvoton.NuMicro_DFP.1.2.2.pack</property>
+              <property name="archive.size">0</property>
+              <property name="dest.folder">Nuvoton/NuMicro_DFP/1.2.2</property>
+              <property name="pdsc.name">Nuvoton.NuMicro_DFP.pdsc</property>
+              <property name="date">2018-06-05</property>
+            </properties>
+          </version>
+          <version name="1.2.1">
+            <description>Improved PDSC file, adding include paths for device peripherals and new date feature and update svd file</description>
+            <properties>
+              <property name="type">cmsis.pack</property>
+              <property name="vendor.name">Nuvoton</property>
+              <property name="pack.name">NuMicro_DFP</property>
+              <property name="version.name">1.2.1</property>
+              <property name="archive.url">http://www.nuvoton.com/hq/enu/Documents/KEILSoftwarePack/Nuvoton.NuMicro_DFP.1.2.1.pack</property>
+              <property name="archive.name">Nuvoton.NuMicro_DFP.1.2.1.pack</property>
+              <property name="archive.size">27329963</property>
+              <property name="dest.folder">Nuvoton/NuMicro_DFP/1.2.1</property>
+              <property name="pdsc.name">Nuvoton.NuMicro_DFP.pdsc</property>
+              <property name="date">2018-04-13</property>
+            </properties>
+          </version>
+          <version name="1.2.0">
+            <description>Add M2351 and NUC2201 series device and svd file and update NUC100, NUC200, M480, NUC505 series example code</description>
+            <properties>
+              <property name="type">cmsis.pack</property>
+              <property name="vendor.name">Nuvoton</property>
+              <property name="pack.name">NuMicro_DFP</property>
+              <property name="version.name">1.2.0</property>
+              <property name="archive.url">http://www.nuvoton.com/hq/enu/Documents/KEILSoftwarePack/Nuvoton.NuMicro_DFP.1.2.0.pack</property>
+              <property name="archive.name">Nuvoton.NuMicro_DFP.1.2.0.pack</property>
+              <property name="archive.size">27061397</property>
+              <property name="dest.folder">Nuvoton/NuMicro_DFP/1.2.0</property>
+              <property name="pdsc.name">Nuvoton.NuMicro_DFP.pdsc</property>
+            </properties>
+          </version>
+          <version name="1.1.0">
+            <description>Add M0564, NUC121, NUC125, NUC126, Mini57 and M480 series example code</description>
+            <properties>
+              <property name="type">cmsis.pack</property>
+              <property name="vendor.name">Nuvoton</property>
+              <property name="pack.name">NuMicro_DFP</property>
+              <property name="version.name">1.1.0</property>
+              <property name="archive.url">http://www.nuvoton.com/hq/enu/Documents/KEILSoftwarePack/Nuvoton.NuMicro_DFP.1.1.0.pack</property>
+              <property name="archive.name">Nuvoton.NuMicro_DFP.1.1.0.pack</property>
+              <property name="archive.size">25868089</property>
+              <property name="dest.folder">Nuvoton/NuMicro_DFP/1.1.0</property>
+              <property name="pdsc.name">Nuvoton.NuMicro_DFP.pdsc</property>
+            </properties>
+          </version>
+          <version name="1.0.9">
+            <description>Rename Generic series</description>
+            <properties>
+              <property name="type">cmsis.pack</property>
+              <property name="vendor.name">Nuvoton</property>
+              <property name="pack.name">NuMicro_DFP</property>
+              <property name="version.name">1.0.9</property>
+              <property name="archive.url">http://www.nuvoton.com/hq/enu/Documents/KEILSoftwarePack/Nuvoton.NuMicro_DFP.1.0.9.pack</property>
+              <property name="archive.name">Nuvoton.NuMicro_DFP.1.0.9.pack</property>
+              <property name="archive.size">17810262</property>
+              <property name="dest.folder">Nuvoton/NuMicro_DFP/1.0.9</property>
+              <property name="pdsc.name">Nuvoton.NuMicro_DFP.pdsc</property>
+            </properties>
+          </version>
+          <version name="1.0.8">
+            <description>Add Nano103, NM1120, NM1330, NM1820 series svd file and update M051, M058S, Mini51, Nano100bn, Nano103, NUC123, NUC200, NUC505 series example code</description>
+            <properties>
+              <property name="type">cmsis.pack</property>
+              <property name="vendor.name">Nuvoton</property>
+              <property name="pack.name">NuMicro_DFP</property>
+              <property name="version.name">1.0.8</property>
+              <property name="archive.url">http://www.nuvoton.com/hq/enu/Documents/KEILSoftwarePack/Nuvoton.NuMicro_DFP.1.0.8.pack</property>
+              <property name="archive.name">Nuvoton.NuMicro_DFP.1.0.8.pack</property>
+              <property name="archive.size">17810252</property>
+              <property name="dest.folder">Nuvoton/NuMicro_DFP/1.0.8</property>
+              <property name="pdsc.name">Nuvoton.NuMicro_DFP.pdsc</property>
+            </properties>
+          </version>
+          <version name="1.0.7">
+            <description>Add NM1200 series example code and update svd file</description>
+            <properties>
+              <property name="type">cmsis.pack</property>
+              <property name="vendor.name">Nuvoton</property>
+              <property name="pack.name">NuMicro_DFP</property>
+              <property name="version.name">1.0.7</property>
+              <property name="archive.url">http://www.nuvoton.com/hq/enu/Documents/KEILSoftwarePack/Nuvoton.NuMicro_DFP.1.0.7.pack</property>
+              <property name="archive.name">Nuvoton.NuMicro_DFP.1.0.7.pack</property>
+              <property name="archive.size">16948959</property>
+              <property name="dest.folder">Nuvoton/NuMicro_DFP/1.0.7</property>
+              <property name="pdsc.name">Nuvoton.NuMicro_DFP.pdsc</property>
+            </properties>
+          </version>
+          <version name="1.0.6">
+            <description>Add Nano103, NM1120, NM1320, NM1330, NM1820 chip, update M0519, NUC230_240, NUC472, M451 series example code</description>
+            <properties>
+              <property name="type">cmsis.pack</property>
+              <property name="vendor.name">Nuvoton</property>
+              <property name="pack.name">NuMicro_DFP</property>
+              <property name="version.name">1.0.6</property>
+              <property name="archive.url">http://www.nuvoton.com/hq/enu/Documents/KEILSoftwarePack/Nuvoton.NuMicro_DFP.1.0.6.pack</property>
+              <property name="archive.name">Nuvoton.NuMicro_DFP.1.0.6.pack</property>
+              <property name="archive.size">16948945</property>
+              <property name="dest.folder">Nuvoton/NuMicro_DFP/1.0.6</property>
+              <property name="pdsc.name">Nuvoton.NuMicro_DFP.pdsc</property>
+            </properties>
+          </version>
+          <version name="1.0.5">
+            <description>Add Mini55 chip, update Mini58, NUC100, NUC122, NUC123, Nano100AN, Nano112, NUC200, NUC230_240 series example code</description>
+            <properties>
+              <property name="type">cmsis.pack</property>
+              <property name="vendor.name">Nuvoton</property>
+              <property name="pack.name">NuMicro_DFP</property>
+              <property name="version.name">1.0.5</property>
+              <property name="archive.url">http://www.nuvoton.com/hq/enu/Documents/KEILSoftwarePack/Nuvoton.NuMicro_DFP.1.0.5.pack</property>
+              <property name="archive.name">Nuvoton.NuMicro_DFP.1.0.5.pack</property>
+              <property name="archive.size">16495431</property>
+              <property name="dest.folder">Nuvoton/NuMicro_DFP/1.0.5</property>
+              <property name="pdsc.name">Nuvoton.NuMicro_DFP.pdsc</property>
+            </properties>
+          </version>
+          <version name="1.0.4">
+            <description>Add NUC122, M058S, Mini58, M0519 series example code</description>
+            <properties>
+              <property name="type">cmsis.pack</property>
+              <property name="vendor.name">Nuvoton</property>
+              <property name="pack.name">NuMicro_DFP</property>
+              <property name="version.name">1.0.4</property>
+              <property name="archive.url">http://www.nuvoton.com/hq/enu/Documents/KEILSoftwarePack/Nuvoton.NuMicro_DFP.1.0.4.pack</property>
+              <property name="archive.name">Nuvoton.NuMicro_DFP.1.0.4.pack</property>
+              <property name="archive.size">16050583</property>
+              <property name="dest.folder">Nuvoton/NuMicro_DFP/1.0.4</property>
+              <property name="pdsc.name">Nuvoton.NuMicro_DFP.pdsc</property>
+            </properties>
+          </version>
+          <version name="1.0.3">
+            <description>Add M451, NUC100, NUC200, NUC123, NUC029, M0518, NUC131, NANO100BN, NUC505 series example code</description>
+            <properties>
+              <property name="type">cmsis.pack</property>
+              <property name="vendor.name">Nuvoton</property>
+              <property name="pack.name">NuMicro_DFP</property>
+              <property name="version.name">1.0.3</property>
+              <property name="archive.url">http://www.nuvoton.com/hq/enu/Documents/KEILSoftwarePack/Nuvoton.NuMicro_DFP.1.0.3.pack</property>
+              <property name="archive.name">Nuvoton.NuMicro_DFP.1.0.3.pack</property>
+              <property name="archive.size">14181914</property>
+              <property name="dest.folder">Nuvoton/NuMicro_DFP/1.0.3</property>
+              <property name="pdsc.name">Nuvoton.NuMicro_DFP.pdsc</property>
+            </properties>
+          </version>
+          <version name="1.0.2">
+            <description>Add ISD9100, ISD9300, N571, N572 svd file and M4LED chip series</description>
+            <properties>
+              <property name="type">cmsis.pack</property>
+              <property name="vendor.name">Nuvoton</property>
+              <property name="pack.name">NuMicro_DFP</property>
+              <property name="version.name">1.0.2</property>
+              <property name="archive.url">http://www.nuvoton.com/hq/enu/Documents/KEILSoftwarePack/Nuvoton.NuMicro_DFP.1.0.2.pack</property>
+              <property name="archive.name">Nuvoton.NuMicro_DFP.1.0.2.pack</property>
+              <property name="archive.size">9518426</property>
+              <property name="dest.folder">Nuvoton/NuMicro_DFP/1.0.2</property>
+              <property name="pdsc.name">Nuvoton.NuMicro_DFP.pdsc</property>
+            </properties>
+          </version>
+          <version name="1.0.1">
+            <description>Add (M051, Mini51, Nano112, NUC240, NUC472) example code and new chip series</description>
+            <properties>
+              <property name="type">cmsis.pack</property>
+              <property name="vendor.name">Nuvoton</property>
+              <property name="pack.name">NuMicro_DFP</property>
+              <property name="version.name">1.0.1</property>
+              <property name="archive.url">http://www.nuvoton.com/hq/enu/Documents/KEILSoftwarePack/Nuvoton.NuMicro_DFP.1.0.1.pack</property>
+              <property name="archive.name">Nuvoton.NuMicro_DFP.1.0.1.pack</property>
+              <property name="archive.size">9386739</property>
+              <property name="dest.folder">Nuvoton/NuMicro_DFP/1.0.1</property>
+              <property name="pdsc.name">Nuvoton.NuMicro_DFP.pdsc</property>
+            </properties>
+          </version>
+          <version name="1.0.0">
+            <description>First Release version of NuMicro Device Family Pack.</description>
+            <properties>
+              <property name="type">cmsis.pack</property>
+              <property name="vendor.name">Nuvoton</property>
+              <property name="pack.name">NuMicro_DFP</property>
+              <property name="version.name">1.0.0</property>
+              <property name="archive.url">http://www.nuvoton.com/hq/enu/Documents/KEILSoftwarePack/Nuvoton.NuMicro_DFP.1.0.0.pack</property>
+              <property name="archive.name">Nuvoton.NuMicro_DFP.1.0.0.pack</property>
+              <property name="archive.size">3347957</property>
+              <property name="dest.folder">Nuvoton/NuMicro_DFP/1.0.0</property>
+              <property name="pdsc.name">Nuvoton.NuMicro_DFP.pdsc</property>
+            </properties>
+          </version>
+        </versions>
+      </package>
+      <package name="NuVoice_ISD_DFP">
+        <description>Nuvoton ARM Cortex-M NuVoice, ISD and NPCx Family Device Support</description>
+        <versions>
+          <version name="1.0.6">
+            <description>Add N569J series.</description>
+            <properties>
+              <property name="type">cmsis.pack</property>
+              <property name="vendor.name">Nuvoton</property>
+              <property name="pack.name">NuVoice_ISD_DFP</property>
+              <property name="version.name">1.0.6</property>
+              <property name="archive.url">http://www.nuvoton.com/hq/enu/Documents/KEILSoftwarePack/Nuvoton.NuVoice_ISD_DFP.1.0.6.pack</property>
+              <property name="archive.name">Nuvoton.NuVoice_ISD_DFP.1.0.6.pack</property>
+              <property name="archive.size">1431255</property>
+              <property name="dest.folder">Nuvoton/NuVoice_ISD_DFP/1.0.6</property>
+              <property name="pdsc.name">Nuvoton.NuVoice_ISD_DFP.pdsc</property>
+              <property name="date">2020-07-10</property>
+            </properties>
+            <outline>
+              <keyword name="Nuvoton" />
+              <keyword name="Device Support" />
+              <keyword name="Device Family Package Nuvoton" />
+              <keyword name="NuVoice" />
+              <keyword name="ISD" />
+              <devicefamily name="ISD Family">
+                <property name="vendor.name">Nuvoton</property>
+                <property name="vendor.id">18</property>
+              </devicefamily>
+              <devicefamily name="NPCX Family">
+                <property name="vendor.name">Nuvoton</property>
+                <property name="vendor.id">18</property>
+              </devicefamily>
+              <devicefamily name="NuVoice Family">
+                <property name="vendor.name">Nuvoton</property>
+                <property name="vendor.id">18</property>
+              </devicefamily>
+            </outline>
+          </version>
+          <version name="1.0.5">
+            <description>Add I96100 series.</description>
+            <properties>
+              <property name="type">cmsis.pack</property>
+              <property name="vendor.name">Nuvoton</property>
+              <property name="pack.name">NuVoice_ISD_DFP</property>
+              <property name="version.name">1.0.5</property>
+              <property name="archive.url">http://www.nuvoton.com/hq/enu/Documents/KEILSoftwarePack/Nuvoton.NuVoice_ISD_DFP.1.0.5.pack</property>
+              <property name="archive.name">Nuvoton.NuVoice_ISD_DFP.1.0.5.pack</property>
+              <property name="archive.size">1388179</property>
+              <property name="dest.folder">Nuvoton/NuVoice_ISD_DFP/1.0.5</property>
+              <property name="pdsc.name">Nuvoton.NuVoice_ISD_DFP.pdsc</property>
+              <property name="date">2020-02-06</property>
+            </properties>
+          </version>
+          <version name="1.0.4">
+            <description>Add NPCA121DD, NPCA121DY and N570J part no.</description>
+            <properties>
+              <property name="type">cmsis.pack</property>
+              <property name="vendor.name">Nuvoton</property>
+              <property name="pack.name">NuVoice_ISD_DFP</property>
+              <property name="version.name">1.0.4</property>
+              <property name="archive.url">http://www.nuvoton.com/hq/enu/Documents/KEILSoftwarePack/Nuvoton.NuVoice_ISD_DFP.1.0.4.pack</property>
+              <property name="archive.name">Nuvoton.NuVoice_ISD_DFP.1.0.4.pack</property>
+              <property name="archive.size">0</property>
+              <property name="dest.folder">Nuvoton/NuVoice_ISD_DFP/1.0.4</property>
+              <property name="pdsc.name">Nuvoton.NuVoice_ISD_DFP.pdsc</property>
+              <property name="date">2019-11-26</property>
+            </properties>
+          </version>
+          <version name="1.0.3">
+            <description>Add the option &apos;Dfpu&apos; into I94100 series device.</description>
+            <properties>
+              <property name="type">cmsis.pack</property>
+              <property name="vendor.name">Nuvoton</property>
+              <property name="pack.name">NuVoice_ISD_DFP</property>
+              <property name="version.name">1.0.3</property>
+              <property name="archive.url">http://www.nuvoton.com/hq/enu/Documents/KEILSoftwarePack/Nuvoton.NuVoice_ISD_DFP.1.0.3.pack</property>
+              <property name="archive.name">Nuvoton.NuVoice_ISD_DFP.1.0.3.pack</property>
+              <property name="archive.size">980360</property>
+              <property name="dest.folder">Nuvoton/NuVoice_ISD_DFP/1.0.3</property>
+              <property name="pdsc.name">Nuvoton.NuVoice_ISD_DFP.pdsc</property>
+              <property name="date">2019-09-19</property>
+            </properties>
+          </version>
+          <version name="1.0.2">
+            <description>Add I94100, I94121, I94123, I94124, I94110, I94111, I94113, I94114, I94130, I94131, I94133, I94134 part no.</description>
+            <properties>
+              <property name="type">cmsis.pack</property>
+              <property name="vendor.name">Nuvoton</property>
+              <property name="pack.name">NuVoice_ISD_DFP</property>
+              <property name="version.name">1.0.2</property>
+              <property name="archive.url">http://www.nuvoton.com/hq/enu/Documents/KEILSoftwarePack/Nuvoton.NuVoice_ISD_DFP.1.0.2.pack</property>
+              <property name="archive.name">Nuvoton.NuVoice_ISD_DFP.1.0.2.pack</property>
+              <property name="archive.size">980317</property>
+              <property name="dest.folder">Nuvoton/NuVoice_ISD_DFP/1.0.2</property>
+              <property name="pdsc.name">Nuvoton.NuVoice_ISD_DFP.pdsc</property>
+              <property name="date">2019-09-11</property>
+            </properties>
+          </version>
+          <version name="1.0.1">
+            <description>Add N569S and N570H series.</description>
+            <properties>
+              <property name="type">cmsis.pack</property>
+              <property name="vendor.name">Nuvoton</property>
+              <property name="pack.name">NuVoice_ISD_DFP</property>
+              <property name="version.name">1.0.1</property>
+              <property name="archive.url">http://www.nuvoton.com/hq/enu/Documents/KEILSoftwarePack/Nuvoton.NuVoice_ISD_DFP.1.0.1.pack</property>
+              <property name="archive.name">Nuvoton.NuVoice_ISD_DFP.1.0.1.pack</property>
+              <property name="archive.size">1023861</property>
+              <property name="dest.folder">Nuvoton/NuVoice_ISD_DFP/1.0.1</property>
+              <property name="pdsc.name">Nuvoton.NuVoice_ISD_DFP.pdsc</property>
+              <property name="date">2018-11-28</property>
+            </properties>
+          </version>
+          <version name="1.0.0">
+            <description>First Release version of NuVoice and ISD Device Family Pack.</description>
+            <properties>
+              <property name="type">cmsis.pack</property>
+              <property name="vendor.name">Nuvoton</property>
+              <property name="pack.name">NuVoice_ISD_DFP</property>
+              <property name="version.name">1.0.0</property>
+              <property name="archive.url">http://www.nuvoton.com/hq/enu/Documents/KEILSoftwarePack/Nuvoton.NuVoice_ISD_DFP.1.0.0.pack</property>
+              <property name="archive.name">Nuvoton.NuVoice_ISD_DFP.1.0.0.pack</property>
+              <property name="archive.size">927563</property>
+              <property name="dest.folder">Nuvoton/NuVoice_ISD_DFP/1.0.0</property>
+              <property name="pdsc.name">Nuvoton.NuVoice_ISD_DFP.pdsc</property>
+              <property name="date">2018-09-05</property>
+            </properties>
+          </version>
+        </versions>
+      </package>
+    </packages>
+  </repository>
+</root>
